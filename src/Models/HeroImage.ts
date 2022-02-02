@@ -1,4 +1,4 @@
-class HeroImage extends ContentModelBase {
+export class HeroImage extends ContentModelBase {
   backGroundImage!: Media;
   headLine: string = "";
   title: string = "";

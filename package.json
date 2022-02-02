@@ -8,8 +8,12 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "@contentful/rich-text-html-renderer": "^15.11.1",
+    "@contentful/rich-text-types": "^15.11.1",
+    "@vue/apollo-option": "^4.0.0-alpha.16",
     "core-js": "^3.6.5",
     "vue": "^3.0.0",
+    "vue-apollo": "^3.1.0",
     "vue-class-component": "^8.0.0-0"
   },
   "devDependencies": {

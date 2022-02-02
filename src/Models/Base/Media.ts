@@ -1,4 +1,4 @@
-class Media {
+export default class Media {
   url: string = "";
   fileName: string = "";
   title: string = "";

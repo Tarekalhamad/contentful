@@ -1,3 +1,5 @@
-class Course extends ContentModelBase {
-  title: string = "";
+import ContentModelBase from "./Base/ContentModelBase";
+
+export interface Course extends ContentModelBase {
+  title: string;
 }

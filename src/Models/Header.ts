@@ -3,5 +3,5 @@ import Media from "./Base/Media";
 
 export default class Header extends ContentModelBase {
   title: string = "";
-  backGroundImage: Media = new Media();
+  logo: Media = new Media();
 }

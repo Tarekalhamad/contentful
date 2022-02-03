@@ -1,12 +1,12 @@
 
 <template>
-  <div class="hello">Hi header</div>
+  <img :src="header?.logo?.url + '?w=100'" />
 </template>
 
 
 <script lang="ts">
+import Header from "@/Models/Header";
 import { Options, Vue } from "vue-class-component";
-import Header from "../Models/Header";
 @Options({
   props: {
     header: Header,
